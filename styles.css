@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 144px 42px;
+
+}
+
+
+.link-header {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 21px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 23px;
+}
+
+.button-hearder {
+    Width: 124px;
+    Height: 51px;
+    margin-top: 13px;
+    margin-left: 28px;
+    background: #4CB538;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fafafa;
+}
+
+
+.img-f {
+    margin: 163px 0 0 123px;
+
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+    margin-left: 80px;
+
+}
+
+
+
+h1 {
+    font-weight: 500px;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    width: 493px;
+
+}
+
+p {
+
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 47px;
+
+}
+
+.link-sec {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        width: 278px;
+        height: 60px;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        margin-top: -1246px;
+        display: inline;
+
+
+
+    }
+    .img-f {
+        width: 279px;
+        height: 268px;
+        margin-bottom: -965px;
+        display: inline;
+    }
+
+    .link-header {
+        display: none;
+    }
+    
+    button {
+        width: 61px;
+        height: 18px;
+        position: relative;
+        left: 70%;
+        margin-top: 6px;
+    }
+    
+
+    .link-sec {
+        position: static;
+        margin-left: 46%;
+    }
+    
+}
+
+
+
+
+
